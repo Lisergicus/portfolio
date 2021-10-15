@@ -1,0 +1,36 @@
+body {
+	font-family: Corbel, Arial, sans-serif;
+	margin: 0px;
+}
+
+header {
+	background: #00a6ff;
+	text-align: center;
+	padding:20px;
+}
+
+header img {
+	width: 360px;
+}
+
+header li {
+	display: inline-block;
+	padding: 6px 8px 6px 8px;
+	font-size: 24px;
+	
+} 
+
+header li:hover {
+	background-color: #007beds;
+}
+
+nav {
+	list-style-type: none;
+	background-color: #009aed;
+	border: 1px black solid;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}

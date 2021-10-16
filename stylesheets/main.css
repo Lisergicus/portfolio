@@ -15,7 +15,7 @@ header {
 }
 
 header img {
-	width: 360px;
+	width: 180px;
 }
 .container {
 	max-width: 900px;
@@ -73,6 +73,11 @@ nav a {
 	background-color: #f0f0f0;
 	padding: 10px;
 }
+
+#gallery .item:last-child {
+	clear: left;
+}
+
 
 #gallery .caption p {
 	margin: 0;

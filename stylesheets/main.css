@@ -7,6 +7,7 @@ body {
 	font-family: 'Nunito', sans-serif;
 	margin: 0px;
 }
+/****** HEADER  **/
 
 header {
 	background: #00a6ff;
@@ -28,6 +29,15 @@ header img {
 	clear: both;
 	display: table;
 
+}
+
+.active {
+		background: #26b2fc;
+		border-radius: 3px ;
+}
+
+img {
+	width: 100%;
 }
 
 /********** NAVIGATION  ************/
@@ -88,6 +98,13 @@ body a {
 	line-height: 0;
 }
 
+/******** ABOUT ********/
+
+#about img {
+	padding: 25px 0px;
+	width: 360px;
+}
+
 /***********  FOOTER ***/
 
 footer.main {
@@ -109,13 +126,24 @@ footer.main p {
 }
 
 
-@media only screen and (min-width: 568px) {
+@media only screen and (min-width: 768px) {
 /*********** GALLERY 2  **********/
 	#gallery .item {
 		width: 33,3333%;
 	}
 	#gallery .item:nth-child(3n+1) {
 	clear:  left;
+	}
+	/******** ABOUT 2 ********/
+	#about .profile-pic {
+		float: left;
+		width: 50%;
+		
+	}
+	#about .description {
+		float: right;
+		width: 50%;
+		padding: 15px;
 	}
 
 }

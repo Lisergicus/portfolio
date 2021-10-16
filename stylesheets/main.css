@@ -7,22 +7,6 @@ body {
 	font-family: 'Nunito', sans-serif;
 	margin: 0px;
 }
-/****** HEADER  **/
-
-header {
-	background: #00a6ff;
-	text-align: center;
-	padding:20px;
-}
-
-header img {
-	width: 180px;
-}
-.container {
-	max-width: 900px;
-	margin: 0 auto;
-	padding: 0 15px;
-}
 
 .clearfix::after {
 	content:"" ;
@@ -44,6 +28,36 @@ img {
 	font-size: 48px;
 	text-align: center;
 }
+
+main {
+	min-height: calc(100vh - 235.500px - 150.594px);
+	padding-top: 245.5px;
+}
+
+/****** HEADER  **/
+
+header {
+	background: #00a6ff;
+	text-align: center;
+	padding:20px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+}
+
+header img {
+	width: 120px;
+}
+header .logo-container{
+
+}
+.container {
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
 
 /********** NAVIGATION  ************/
 header li {

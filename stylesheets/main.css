@@ -1,3 +1,5 @@
+/********** GENERAL  *************/
+
 body {
 	font-family: 'Nunito', sans-serif;
 	margin: 0px;
@@ -12,7 +14,13 @@ header {
 header img {
 	width: 360px;
 }
+.container {
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
 
+/********** NAVIGATION  ************/
 header li {
 	display: inline-block;
 	padding: 6px 8px 6px 8px;
@@ -30,7 +38,17 @@ nav {
 	border: 1px black solid;
 }
 
-a {
+nav a {
 	text-decoration: none;
 	color: black;
+}
+
+/*********** GALLERY   ***************/
+
+#gallery {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+#gallery img {
+	width: 100%;
 }

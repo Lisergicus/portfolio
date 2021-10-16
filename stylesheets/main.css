@@ -127,6 +127,7 @@ footer.main p {
 
 
 @media only screen and (min-width: 768px) {
+
 /*********** GALLERY 2  **********/
 	#gallery .item {
 		width: 33,3333%;
@@ -138,12 +139,13 @@ footer.main p {
 	#about .profile-pic {
 		float: left;
 		width: 50%;
-		
+		padding: 25px;
+
 	}
 	#about .description {
 		float: right;
 		width: 50%;
-		padding: 15px;
+		padding: 25px;
 	}
 
 }

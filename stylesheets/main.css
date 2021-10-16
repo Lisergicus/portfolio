@@ -1,4 +1,7 @@
 /********** GENERAL  *************/
+* {
+	box-sizing: border-box ;
+}
 
 body {
 	font-family: 'Nunito', sans-serif;
@@ -18,6 +21,13 @@ header img {
 	max-width: 900px;
 	margin: 0 auto;
 	padding: 0 15px;
+}
+
+.clearfix::after {
+	content:"" ;
+	clear: both;
+	display: table;
+
 }
 
 /********** NAVIGATION  ************/
@@ -51,4 +61,25 @@ nav a {
 }
 #gallery img {
 	width: 100%;
+}
+
+#gallery .item {
+	float: left;
+	width: 50%;
+	padding: 15px;
+}
+
+#gallery .caption {
+	background-color: #f0f0f0;
+	padding: 10px;
+}
+
+#gallery .caption p {
+	margin: 0;
+
+}
+/***********  FOOTER ***/
+
+footer.main {
+
 }

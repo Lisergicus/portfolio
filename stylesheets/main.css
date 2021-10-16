@@ -40,6 +40,11 @@ img {
 	width: 100%;
 }
 
+#costruzione {
+	font-size: 48px;
+	text-align: center;
+}
+
 /********** NAVIGATION  ************/
 header li {
 	display: inline-block;
@@ -101,8 +106,14 @@ body a {
 
 #about img {
 	padding: 25px;
-	width: 360px;
+	width: 100%;
+	max-width: 360px;
 }
+/******** INFO ********/
+
+
+/******** CONTACT ********/
+
 
 /***********  FOOTER ***/
 
@@ -134,19 +145,31 @@ footer.main p {
 	#gallery .item:nth-child(3n+1) {
 	clear:  left;
 	}
+	
 	/******** ABOUT 2 ********/
 	#about .profile-pic {
 		float: left;
 		width: 50%;
 		padding: 25px;
-
+		text-align: center;
 	}
 	#about .description {
 		float: right;
 		width: 50%;
 		padding: 25px;
 	}
-
+		/******** COINTATTI 2 ********/
+	#about .info {
+		float: left;
+		width: 80%;
+		padding: 25px;
+		text-align: left;
+	}
+	#about .contact {
+		float: right;
+		width: 20%;
+		padding: 25px;
+	}
 }
 @media only screen and (min-width: 968px) {
 

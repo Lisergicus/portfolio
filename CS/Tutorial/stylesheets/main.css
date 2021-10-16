@@ -84,6 +84,12 @@ footer.main {
 
 }
 
+@media only screen and (min-width: 568px) {
+	body {
+		background: red;
+	}
+}
+
 /********* CITIES SKYLINE  *********/
 
 #CitiesSkylineNav {

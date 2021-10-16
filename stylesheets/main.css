@@ -88,3 +88,17 @@ nav a {
 footer.main {
 
 }
+
+/********* CITIES SKYLINE  *********/
+
+#CitiesSkylineNav {
+	list-style-type: none;
+	background-color: #009aed;
+	border: 1px black solid;
+	margin: 1px;
+}
+
+#CitiesSkylineNav a {
+		text-decoration: none;
+		color: black;
+}

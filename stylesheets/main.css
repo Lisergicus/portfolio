@@ -31,7 +31,7 @@ img {
 
 main {
 	min-height: calc(100vh - 235.500px - 150.594px);
-	padding-top: 135.5px;
+	padding-top: 155.5px;
 }
 	#about .profile-pic {
 		text-align: center;
@@ -162,9 +162,10 @@ footer.main p {
 	#gallery .item {
 		width: 33,3333%;
 	}
-	#gallery .item:nth-child(3n+1) {
+	/* #gallery .item:nth-child(3n+1) {
 	clear:  left;
 	}
+	*/
 	
 	/******** ABOUT 2 ********/
 	#about .profile-pic {
@@ -211,9 +212,9 @@ footer.main p {
 			transition: opacity .3s;
 	}
 
-	 #gallery .item:nth-child(2n+1) {
+/*	 #gallery .item:nth-child(2n+1) {
 		clear:  left;
-	}
+*/	}
 	
 
 	#gallery .item:hover {

@@ -75,6 +75,11 @@ nav ul{
 	padding: 0;
 }
 
+header #CitiesSkylineNav ul{
+	margin: 0;
+	padding: 0;
+}
+
 nav {
 	list-style-type: none;
 	background-color: #009aed;

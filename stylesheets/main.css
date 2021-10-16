@@ -30,9 +30,6 @@ header img {
 
 }
 
-body {
-	background: #00a6ff;
-}
 /********** NAVIGATION  ************/
 header li {
 	display: inline-block;
@@ -56,9 +53,15 @@ nav a {
 	color: black;
 }
 
+body a {
+	text-decoration: none;
+	color: black;
+}
+
 /*********** GALLERY   ***************/
 
 #gallery {
+	background: #00a6ff;
 	padding-top: 15px;
 	padding-bottom: 15px;
 }
@@ -68,7 +71,7 @@ nav a {
 
 #gallery .item {
 	float: left;
-	width: 50%;
+	width: 33%;
 	padding: 15px;
 }
 
@@ -81,17 +84,67 @@ nav a {
 	margin: 0;
 
 }
+#gallery .picture {
+	line-height: 0;
+}
+
 /***********  FOOTER ***/
 
 footer.main {
-
+	text-align: center;
+	padding: 15px;
 }
+
+footer.main img{
+	width: 30px;
+}
+
+footer.main a {
+	display: : inline-block;
+	padding: 5px 10px;
+}
+
+footer.main p {
+	font-size: 0.8rem;
+}
+
 
 @media only screen and (min-width: 568px) {
-	body {
-		background: #00a6ff;
+/*********** GALLERY 2  **********/
+	#gallery .item {
+		width: 33,3333%;
+	}
+	#gallery .item:nth-child(3n+1) {
+	clear:  left;
+	}
+
+}
+@media only screen and (min-width: 968px) {
+
+	nav a: {
+		transition: background .3s ;
+	}
+
+	nav a:hover {
+		background: #26b2fc;
+		border-radius: 3px ;
+
+}
+
+	#gallery .item {
+			width: 50%;
+			transition: opacity .3s;
+	}
+
+	#gallery .item:nth-child(2n+1) {
+		clear:  left;
+	}
+
+	#gallery .item:hover {
+		opacity: .7;
 	}
 }
+
 
 /********* CITIES SKYLINE  *********/
 

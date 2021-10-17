@@ -155,6 +155,19 @@ footer.main a {
 footer.main p {
 	font-size: 0.8rem;
 }
+/********* CITIES SKYLINE  *********/
+
+#CitiesSkylineNav {
+	list-style-type: none;
+	background-color: #009aed;
+	
+	margin: 1px;
+}
+
+#CitiesSkylineNav a {
+		text-decoration: none;
+		color: black;
+}
 
 /*********|| 768PX || *********/
 
@@ -202,15 +215,15 @@ footer.main p {
 	header .logo-container{
 	}
 
-	nav {
+	nav, #CitiesSkylineNav {
 		background:  #00a6ff;
 		border: 0;
 	}
-	nav li: {
+	#CitiesSkylineNav, nav li: {
 		transition: background .3s ;
 	}
 
-	nav li:hover, .active {
+	li:hover, .active {
 		background: #009aed;
 		border-radius: 3px ;
 	}
@@ -235,16 +248,3 @@ footer.main p {
 }
 
 
-/********* CITIES SKYLINE  *********/
-
-#CitiesSkylineNav {
-	list-style-type: none;
-	background-color: #009aed;
-	border: 1px black solid;
-	margin: 1px;
-}
-
-#CitiesSkylineNav a {
-		text-decoration: none;
-		color: black;
-}

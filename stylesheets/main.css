@@ -88,7 +88,7 @@ nav {
 }
 
 
-nav a {
+nav li a {
 	text-decoration: none;
 	color: black;
 }
@@ -101,18 +101,21 @@ body a {
 /*********** GALLERY   ***************/
 
 #gallery {
+	display:  flex;
 	padding-top: 15px;
 	padding-bottom: 15px;
+	flex-wrap: wrap;
 }
 #gallery img {
 	width: 100%;
 }
 
 #gallery .item {
-	float: left;
-	width: 33%;
+	flex: 1 1 50%;
 	padding: 15px;
+	
 }
+
 
 #gallery .caption {
 	background-color: #f0f0f0;
@@ -126,8 +129,7 @@ body a {
 #gallery .picture {
 	line-height: 0;
 }
-
-/******** ABOUT ********/
+/******* ABOUT ********/
 
 #about img {
 	padding: 25px;
@@ -160,13 +162,7 @@ footer.main p {
 @media only screen and (min-width: 768px) {
 
 /*********** GALLERY 2  **********/
-	#gallery .item {
-		width: 33,3333%;
-	}
-	/* #gallery .item:nth-child(3n+1) {
-	clear:  left;
-	}
-	*/
+
 	
 	/******** ABOUT 2 ********/
 	#about .profile-pic {
@@ -195,6 +191,12 @@ footer.main p {
 }
 @media only screen and (min-width: 968px) {
 
+	header {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
 	header .logo-container{
 	}
 
@@ -202,23 +204,23 @@ footer.main p {
 		background:  #00a6ff;
 		border: 0;
 	}
-	nav a: {
+	nav li: {
 		transition: background .3s ;
 	}
 
-	nav a:hover {
-		background: #26b2fc;
+	nav li:hover, .active {
+		background: #009aed;
 		border-radius: 3px ;
 	}
+
+
+
+
 	#CitiesSkylineNav a:hover {
 		background: #26b2fc;
 		border-radius: 3px ;
 	}
 
-	#gallery .item {
-			width: 50%;
-			transition: opacity .3s;
-	}
 
 /*	 #gallery .item:nth-child(2n+1) {
 		clear:  left;

@@ -60,6 +60,11 @@ header .logo-container{
 	padding: 0 15px;
 }
 
+#title {
+	display: flex;
+	justify-content: center;
+}
+
 
 /********** NAVIGATION  ************/
 header li {
@@ -155,19 +160,6 @@ footer.main a {
 footer.main p {
 	font-size: 0.8rem;
 }
-/********* CITIES SKYLINE  *********/
-
-#CitiesSkylineNav {
-	list-style-type: none;
-	background-color: #009aed;
-	
-	margin: 1px;
-}
-
-#CitiesSkylineNav a {
-		text-decoration: none;
-		color: black;
-}
 
 /*********|| 768PX || *********/
 
@@ -215,11 +207,11 @@ footer.main p {
 	header .logo-container{
 	}
 
-	nav, #CitiesSkylineNav {
+	nav {
 		background:  #00a6ff;
 		border: 0;
 	}
-	#CitiesSkylineNav, nav li: {
+ nav li: {
 		transition: background .3s ;
 	}
 

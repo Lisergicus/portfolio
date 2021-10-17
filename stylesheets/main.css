@@ -2,10 +2,14 @@
 * {
 	box-sizing: border-box ;
 }
-
+html, body{
+	height: 100%;
+}
 body {
 	font-family: 'Nunito', sans-serif;
 	margin: 0px;
+	background:linear-gradient(rgba(7, 119, 75, .6), rgba(7, 16, 119, .6)), url('../Immagini/CSSfondo.jpg') no-repeat center / cover;
+
 }
 
 .clearfix::after {
@@ -36,6 +40,13 @@ main {
 #about .profile-pic {
 	text-align: center;
 }
+
+.TxtBi {
+	color: white;
+}
+
+
+
 /****** HEADER  **/
 
 header {

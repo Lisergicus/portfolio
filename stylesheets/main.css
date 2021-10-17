@@ -30,12 +30,12 @@ img {
 }
 
 main {
-	min-height: calc(100vh - 235.500px - 150.594px);
+	min-height: calc(100vh - 132.594px);
 	padding-top: 155.5px;
 }
-	#about .profile-pic {
-		text-align: center;
-	}
+#about .profile-pic {
+	text-align: center;
+}
 /****** HEADER  **/
 
 header {
@@ -155,7 +155,7 @@ footer.main p {
 	font-size: 0.8rem;
 }
 
-/********* 768PX  *********/
+/*********|| 768PX || *********/
 
 @media only screen and (min-width: 768px) {
 
@@ -195,6 +195,13 @@ footer.main p {
 }
 @media only screen and (min-width: 968px) {
 
+	header .logo-container{
+	}
+
+	nav {
+		background:  #00a6ff;
+		border: 0;
+	}
 	nav a: {
 		transition: background .3s ;
 	}

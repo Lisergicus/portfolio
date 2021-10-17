@@ -113,7 +113,6 @@ body a {
 #gallery .item {
 	flex: 1 1 50%;
 	padding: 15px;
-	
 }
 
 
@@ -163,6 +162,9 @@ footer.main p {
 
 /*********** GALLERY 2  **********/
 
+#gallery .item {
+	flex: 0 1 33.3333%;
+}
 	
 	/******** ABOUT 2 ********/
 	#about .profile-pic {

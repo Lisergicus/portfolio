@@ -1,0 +1,15 @@
+html, body{
+    height: 100%;
+}
+
+.container {
+    padding-top: 120px;
+}
+
+body {
+    background:linear-gradient(rgba(7, 119, 75, .6), rgba(7, 16, 119, .6)), url('../images/sfondo.jpg') no-repeat center / cover;
+}
+
+.input-group {
+    max-width: 500px;
+}

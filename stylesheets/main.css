@@ -127,7 +127,7 @@ body a {
 
 	#hero {
 
-		background: url("../immagini/CSSfondo.jpg") no-repeat center fixed;
+		background: url("immagini/CSSfondo.jpg") no-repeat center fixed;
 		background-size: cover;
 	}
 

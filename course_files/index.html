@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> Introduzione a Javascript </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />  
+</head>
+<body>
+    <header>
+				<div class="logo-container">
+					<a href="index.html">
+						<img src="Immagini\LogoNormale.png" alt="Logo Lisergicus">
+					</a>
+				</div>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="#about">About</a></li>
+						<li><a href="#contact">Contatti</a></li>
+						<li class="active"><a href="../portfolio/course_files/index.html">Giochiamo!</a></li>
+                        <li><a href="CitiesSkylines.html">Cities:Skylines</a></li>
+
+					</ul>
+				</nav>
+
+			</header>
+    <div class="score-container" id="cosaScegli">
+        <h3> Il tuo punteggio: <span id="player-score"> 0 </span></h3>
+        <h3> Il punteggio del computer: <span id="cpu-score"> 0 </span></h3>
+    </div>
+    <div class="container" id="cosaScegli">
+        <h1> Cosa scegli?</h1>
+        <img src="assets/sasso.png" width="100" height="100" alt="" data-name="sasso" class="user-choice">
+        <img src="assets/carta.png" width="100" height="100" alt="" data-name="carta" class="user-choice">
+        <img src="assets/forbice.png" width="100" height="100" alt="" data-name="forbice" class="user-choice">
+
+        <div id="computer-choice" class="margin-top">
+       
+        </div>
+
+        <div class="margin-top">
+            <h3 id="result"> </h3>
+        </div>
+    </div>
+    <script src="app.js">
+
+    </script>
+</body>
+</html>

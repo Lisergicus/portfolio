@@ -1,3 +1,48 @@
+/********** GENERAL  *************/
+* {
+	box-sizing: border-box ;
+}
+html, body{
+	height: 100%;
+}
+body {
+	font-family: 'Nunito', sans-serif;
+	margin: 0px;
+}
+
+.clearfix::after {
+	content:"" ;
+	clear: both;
+	display: table;
+
+}
+
+.active {
+		background: #26b2fc;
+		border-radius: 3px ;
+}
+
+img {
+	width: 100%;
+}
+
+#costruzione {
+	font-size: 48px;
+	text-align: center;
+}
+
+main {
+	min-height: calc(100vh - 132.594px);
+	padding-top: 155.5px;
+}
+#about .profile-pic {
+	text-align: center;
+}
+
+.TxtBi {
+	color: white;
+}
+
 body {
     background: radial-gradient(gold, goldenrod);
     font-family: monospace;
@@ -47,13 +92,15 @@ img:hover{
 header {
 	background: rgba(0, 166, 255, 0.7);
 	text-align: center;
-	padding:5px;
+	padding: 5px;
 	position: fixed;
 	top: 0;
 	width: 100%;
 	z-index: 1;
 }
+header .logo-container{
 
+}
 header img {
 	width: 110px;
 }
@@ -76,14 +123,14 @@ header ul{
 /********** NAVIGATION  ************/
 header li {
 	display: inline-block;
-	padding: 12px 8px;	
+	padding: 6px 8px;	
 } 
 
 header li:hover {
 	background-color: #26b2fc;
 }
 nav ul{
-	margin-right: 20px;
+	margin-right: 0;
 	padding: 0;
 }
 
@@ -112,7 +159,7 @@ body a {
 /******** Body  *****/
 
 #cosaScegli {
-    margin: 120px;
+    margin-top: 220px;
 }
 
 /***********  FOOTER ***/
@@ -160,11 +207,19 @@ footer.main p {
 		opacity: .7;
 	}
 }
-	@media only screen and (min-width: 991px) {
+@media only screen and (min-width: 991px) {
 
-	nav {
-		border: 0;
-	}
+    
+    nav {
+        border: 0;
+    }
 
+    nav ul{
+        margin-right: 20px;
+        padding: 0;
+    }
+    #cosaScegli {
+        margin-top: 120px;
+    }
 
 }

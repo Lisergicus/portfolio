@@ -128,10 +128,20 @@ body a {
 	}
 
 	#hero {
-		background:linear-gradient(to top, #fff, transparent),
+    position: relative;
+	}
+
+  #hero:after {
+    background:
                 url("../Immagini/CSSfondo.jpg") no-repeat center fixed;
 		background-size: cover;
-	}
+    position: absolute;
+    content: '';
+    width: 100%;
+    top: 0;
+    height: 600px;
+    z-index: -10;
+  }
 
 	#hero .hero-caption{
 		text-align: center;
@@ -142,9 +152,16 @@ body a {
   }
 /*********** GALLERY   ***************/
 
+.gallery {
+  padding: 20px;
+  background: #fff;
+  transform: translateY(-250px);
+  border-radius: 10px;
+  box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.5);
+}
+
 #gallery {
-	padding-top: 100px;
-	padding-bottom: 15px;
+	padding-bottom: 25px;
 }
 .gallery {
 	display:  flex;
@@ -180,6 +197,7 @@ body a {
 #gallery .picture {
 	line-height: 0;
 }
+
 /******* ABOUT ********/
 #about {
   padding: 70px 0;

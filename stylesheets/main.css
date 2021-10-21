@@ -112,8 +112,8 @@ body a {
 }
 /*********** Hero ********/
  .btn {
-	 display: inline-block;
-	 background:  #F5A623;
+	display: inline-block;
+	background:  #F5A623;
 	padding: 12px 24px;
 	color: #fff;
 	text-transform: uppercase;
@@ -126,7 +126,6 @@ body a {
 	}
 
 	#hero {
-
 		background: url("../Immagini/CSSfondo.jpg") no-repeat center fixed;
 		background-size: cover;
 	}

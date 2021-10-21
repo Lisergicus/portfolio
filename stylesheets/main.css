@@ -8,8 +8,6 @@ html, body{
 body {
 	font-family: 'Nunito', sans-serif;
 	margin: 0px;
-	background:linear-gradient(rgba(7, 119, 75, .6), rgba(7, 16, 119, .6)), url('../Immagini/CSSfondo.jpg') no-repeat center / cover;
-
 }
 
 .clearfix::after {
@@ -117,11 +115,14 @@ body a {
 /*********** GALLERY   ***************/
 
 #gallery {
-	display:  flex;
 	padding-top: 15px;
 	padding-bottom: 15px;
+}
+.gallery {
+	display:  flex;
 	flex-wrap: wrap;
 }
+
 #gallery img {
 	width: 100%;
 }
@@ -145,11 +146,19 @@ body a {
 	line-height: 0;
 }
 /******* ABOUT ********/
+#about {
+  padding: 40px 0;
+  background: #f0f0f0;
+}
 
 #about img {
 	padding: 25px;
 	width: 100%;
 	max-width: 360px;
+}
+
+#contacts {
+	padding: 40px;
 }
 
 /***********  FOOTER ***/

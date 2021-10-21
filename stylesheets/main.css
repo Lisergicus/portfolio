@@ -48,7 +48,7 @@ main {
 /****** HEADER  **/
 
 header {
-	background: #00a6ff;
+	background: rgba(0, 166, 255, 0.7);
 	text-align: center;
 	padding:5px;
 	position: fixed;
@@ -97,7 +97,6 @@ header #CitiesSkylineNav ul{
 
 nav {
 	list-style-type: none;
-	background-color: #009aed;
 	border: 1px black solid;
 }
 
@@ -111,11 +110,35 @@ body a {
 	text-decoration: none;
 	color: black;
 }
+/*********** Hero ********/
+ .btn {
+	 display: inline-block;
+	 background:  #F5A623;
+	padding: 12px 24px;
+	color: #fff;
+	text-transform: uppercase;
+	border: 0;
+	transition: background .3s;
+	}
 
+	.btn:hover {
+		background: #f58e23;
+	}
+
+	#hero {
+
+		background: url("../immagini/CSSfondo.jpg") no-repeat center fixed;
+		background-size: cover;
+	}
+
+	#hero .hero-caption{
+		text-align: center;
+		padding: 180px 20px;
+	}
 /*********** GALLERY   ***************/
 
 #gallery {
-	padding-top: 15px;
+	padding-top: 100px;
 	padding-bottom: 15px;
 }
 .gallery {
@@ -147,7 +170,7 @@ body a {
 }
 /******* ABOUT ********/
 #about {
-  padding: 40px 0;
+  padding: 70px 0;
   background: #f0f0f0;
 }
 
@@ -227,11 +250,7 @@ footer.main p {
 	header .logo-container{
 	}
 
-	nav {
-		background:  #00a6ff;
-		border: 0;
-	}
- nav li: {
+	li:hover {
 		transition: background .3s ;
 	}
 
@@ -251,12 +270,20 @@ footer.main p {
 
 /*	 #gallery .item:nth-child(2n+1) {
 		clear:  left;
-*/	}
+*/	
 	
 
 	#gallery .item:hover {
 		opacity: .7;
 	}
+}
+	@media only screen and (min-width: 991px) {
+
+	nav {
+		border: 0;
+	}
+
+
 }
 
 

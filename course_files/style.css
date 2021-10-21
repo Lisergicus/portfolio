@@ -159,7 +159,7 @@ body a {
 /******** Body  *****/
 
 #cosaScegli {
-    margin-top: 220px;
+    margin-top: 330px;
 }
 
 /***********  FOOTER ***/
@@ -181,7 +181,27 @@ footer.main a {
 footer.main p {
 	font-size: 0.8rem;
 }
-@media only screen and (min-width: 968px) {
+@media only screen and (min-width: 287px){
+    #cosaScegli {
+        margin-top: 300px;
+    }
+}
+@media only screen and (min-width: 420px){
+    #cosaScegli {
+        margin-top: 280px;
+    }
+}
+@media only screen and (min-width: 520px){
+    #cosaScegli {
+        margin-top: 240px;
+    }
+}
+@media only screen and (min-width: 695px){
+    #cosaScegli {
+        margin-top: 200px;
+    }
+}
+@media only screen and (min-width: 991px) {
 
 	header {
 		display: flex;

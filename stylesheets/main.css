@@ -27,8 +27,13 @@ img {
 	width: 100%;
 }
 
-#costruzione {
+.costruzione {
 	font-size: 48px;
+	text-align: center;
+}
+
+.cosh2 {
+	font-size: 36px;
 	text-align: center;
 }
 
@@ -66,6 +71,11 @@ header .logo-container{
 
 }
 .container {
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+.container-est {
 	max-width: 900px;
 	margin: 0 auto;
 	padding: 0 15px;
@@ -148,7 +158,21 @@ body a {
 		text-align: center;
 		padding: 180px 20px;
 	}
+	#hero .hero-caption-est{
+		text-align: center;
+		padding-top: 180px;
+		padding: 20px;
+		margin: 180px 20px;
+		background-color: rgba(250, 250, 250, 0.7);
+		border-radius: 15px;	
+	}
+	
+
+
   #hero h1 {
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
+  }
+  #hero h2 {
     text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
   }
 /*********** GALLERY   ***************/
@@ -202,6 +226,67 @@ body a {
 	line-height: 0;
 }
 
+/******* estrazioni-ctn *********/
+.main-est {
+	padding: 20px;
+	background: #fff;
+	transform: translateY(-250px);
+	border-radius: 10px;
+	box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.5);
+	display:  flex;
+	flex-wrap: wrap;
+	max-width: 500px;
+	margin: 0 auto;
+	
+	background: url("../Immagini/dea-bendata.jpg") no-repeat center;
+	background-size: cover;
+  }
+
+  #estrazioni-ctn {
+	background: url("../Immagini/lotto.jpg") no-repeat center fixed;
+	background-size: cover;
+  }
+
+
+
+.ruota {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+  }
+  .nazionale {
+	border-top: 1px solid #ccc;
+  }
+
+  .main-est {
+	font-family: sans-serif;
+	max-width: 700px;
+	width: 90%;
+	margin: auto;
+  }
+
+  h2.ruota-title {
+	width: 150px;
+  }
+
+  .ruota-estrazione {
+	  background-color: rgba(250, 250, 250, 0.7);
+	  width: 40px;
+	  height: 40px;
+	  vertical-align: middle;
+	  text-align: center;
+	  display: grid;
+	  place-items: center;
+	  border-radius: 50%;
+  }
+
+  .ruota-estrazione > p {
+	  padding: 0;
+	  
+	  margin: auto;
+  }
+
+
 /******* ABOUT ********/
 #about {
 	margin-top: 150px;
@@ -217,7 +302,7 @@ body a {
 	max-width: 360px;
 }
  #about .description{
-	background: rgba(240, 240, 240, 0.7);
+	background: rgba(250, 250, 250, 0.7);
 	border-radius: 3%;
  }
 #contacts {

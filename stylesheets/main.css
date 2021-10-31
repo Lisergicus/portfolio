@@ -8,6 +8,7 @@ html, body{
 body {
 	font-family: 'Nunito', sans-serif;
 	margin: 0px;
+	background: #26b2fc;
 }
 
 .clearfix::after {
@@ -40,7 +41,7 @@ main {
 }
 
 .TxtBi {
-	color: white;
+	color: #f0f0f0;
 }
 
 
@@ -152,6 +153,7 @@ body a {
   }
 /*********** GALLERY   ***************/
 
+
 .gallery {
   padding: 20px;
   background: #fff;
@@ -161,6 +163,8 @@ body a {
 }
 
 #gallery {
+	background: url("../Immagini/dfondoGal.jpg") no-repeat center fixed;
+	background-size: cover;
 	padding-bottom: 25px;
 }
 .gallery {
@@ -200,8 +204,11 @@ body a {
 
 /******* ABOUT ********/
 #about {
+	margin-top: 150px;
+	background: url("../Immagini/about.jpg") no-repeat center fixed;
+	background-size: cover;	
   padding: 70px 0;
-  background: #f0f0f0;
+  
 }
 
 #about img {
@@ -209,7 +216,10 @@ body a {
 	width: 100%;
 	max-width: 360px;
 }
-
+ #about .description{
+	background: rgba(240, 240, 240, 0.5);
+	border-radius: 15%;
+ }
 #contacts {
 	padding: 40px;
 }

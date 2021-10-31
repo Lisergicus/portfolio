@@ -217,8 +217,8 @@ body a {
 	max-width: 360px;
 }
  #about .description{
-	background: rgba(240, 240, 240, 0.5);
-	border-radius: 15%;
+	background: rgba(240, 240, 240, 0.7);
+	border-radius: 3%;
  }
 #contacts {
 	padding: 40px;

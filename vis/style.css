@@ -8,7 +8,9 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  
+  background:
+    url("img/sfondo_vis.jpg") no-repeat center fixed;
+		background-size: cover;
 }
 
 /* Modal */
@@ -84,13 +86,13 @@ body{
 
 .status{
   width: 50%;
-  background-color: #f3f3f3;
+  background-color: rgba(250, 250, 250, 0.4);
   position: relative;
   padding-top: 60px;
   padding: 60px 1rem 0.5rem;
 }
 .status:nth-child(even){
-  background-color: #e9e9e9;
+  background-color: rgba(250, 250, 250, 0.555);;
 }
 
 .status h1 {

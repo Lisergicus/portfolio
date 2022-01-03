@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Draggable Todo App</title>
+</head>
+<body>
+    <!-- Modal -->
+    <!-- <button class="bnt" data-target-modal="#modal1">Modal 1</button> -->
+    <div class="modal" id="todo_form">
+        <div class="header">
+            <div class="title">Aggiungi Nome</div>
+            <bnt class="btn close-modal" data-target-modal="#todo_form">&times;</bnt>
+        </div>
+        
+        <div class="body">
+            <input type="text" id="todo_input" />
+            <input type="submit" value="Add Todo" id="todo_submit">
+        </div>
+    </div>
+
+    
+    <!-- todo -->
+    <div class="todo-container">
+        <div class="status" id="no_status">
+            <h1>No Status</h1>
+            <button id="add_btn" data-target-modal="#todo_form">+ Aggiungi</button>
+            <div class="todo" draggable="true">
+                coso
+                <span class="close">&times;</span>
+                <span class="uk-margin-small-right" uk-icon="check"></span>
+            </div>
+        </div>
+        <div class="status">
+            <h1>Not Started</h1>
+        </div>
+    </div>
+    <div id="overlay"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

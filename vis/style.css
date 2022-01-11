@@ -4,7 +4,7 @@
 
 body{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  min-height: 100vh;
+  min-height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -35,7 +35,7 @@ body{
   font-size:  1.5rem;
 }
 
-.modal {
+.modalL {
   width: 450px;
   position: fixed;
   top: -50%;
@@ -46,10 +46,10 @@ body{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   border-radius: 10px;
   background-color: #fff;
-  z-index: 2;
+  z-index: 3;
 }
 
-.modal.active {
+.modalL.active {
   top: 15%;
 }
 
@@ -76,13 +76,37 @@ body{
   display: block;
 }
 
+/** NavBar **/
+
+.navbar{
+  position: absolute;
+  top: 0%;
+  width: 75%;
+  border-radius: 6px;
+  height: 50px;
+ }
+
+.bgc {
+   background-color: rgba(128, 0, 248, 0.363);
+}
+
+.dropdown {
+  display: inline;
+}
+
+.navbar a{
+  font-weight: bold;
+  font-size: 24px;
+}
+
 /* TODO */
 
 .todo-container{
-  width: 700px;
+  width: 75%;
   height: 60vh;
   display: flex;
 }
+
 
 .status{
   width: 50%;
@@ -92,7 +116,7 @@ body{
   padding: 60px 1rem 0.5rem;
 }
 .status:nth-child(even){
-  background-color: rgba(250, 250, 250, 0.555);;
+  background-color: rgba(250, 250, 250, 0.555);
 }
 
 .status h1 {
@@ -107,7 +131,7 @@ body{
 }
 
 #add_btn{
-  padding:  0.5rem 1rem;
+  
   background-color: #ccc;
   outline: none;
   border: none;
@@ -138,7 +162,7 @@ body{
 .todo .close, .icon{
   position: absolute;
   right: 1rem;
-  top: 0rem;
+  
   font-size: 2rem;
   color: #ccc;
   cursor: pointer;
@@ -161,3 +185,38 @@ body{
   font-size: 1.2rem;
   border: none;
 }
+
+.icon-core {
+  
+  justify-content: center;
+  
+}
+
+.navbar .dropdown{
+  
+}
+
+.icon-core p{
+  margin: 0%;
+  padding-left: 5px;
+  padding-bottom: 5px;
+  opacity: 1;
+}
+
+.icon-core:hover {
+  
+}
+
+.dropdown button {
+  border: none;
+}
+
+.icon-core:hover img{
+  opacity: 0.4;
+}
+
+.icon-core img{
+  width: 25px;
+  height: 25px; 
+}
+

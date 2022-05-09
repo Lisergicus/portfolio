@@ -142,18 +142,6 @@ body a {
     position: relative;
 	}
 
-  #hero:after {
-    background:
-                url("../Immagini/CSSfondo.jpg") no-repeat center fixed;
-		background-size: cover;
-    position: absolute;
-    content: '';
-    width: 100%;
-    top: 0;
-    height: 600px;
-    z-index: -10;
-  }
-
 	#hero .hero-caption{
 		text-align: center;
 		padding: 180px 20px;
@@ -174,6 +162,9 @@ body a {
   }
   #hero h2 {
     text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
+  }
+  #hero .btn{
+	  animation: fade-in .5s 2s forwards ease-in;
   }
 /*********** GALLERY   ***************/
 
@@ -321,7 +312,7 @@ footer.main img{
 }
 
 footer.main a {
-	display:: inline-block;
+	display: inline-block;
 	padding: 5px 10px;
 }
 
@@ -404,3 +395,13 @@ footer.main p {
 }
 
 
+/******** ANIMATIONS ********/
+
+@keyframes fade-in {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 100;
+	}
+}

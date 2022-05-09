@@ -131,7 +131,7 @@ body a {
 	text-transform: uppercase;
 	border: 0;
 	transition: background .3s;
-  border-radius: 25px;
+ 	border-radius: 25px;
 	}
 
 	.btn:hover {
@@ -139,6 +139,8 @@ body a {
 	}
 
 	#hero {
+	background: url("../Immagini/CSSfondo.jpg") no-repeat center fixed;
+	background-size: cover;
     position: relative;
 	}
 

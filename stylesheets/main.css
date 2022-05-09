@@ -164,6 +164,7 @@ body a {
     text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
   }
   #hero .btn{
+	  opacity: 0;
 	  animation: fade-in .5s 2s forwards ease-in;
   }
 /*********** GALLERY   ***************/
